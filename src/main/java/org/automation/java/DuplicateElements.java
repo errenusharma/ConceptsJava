@@ -44,7 +44,7 @@ public class DuplicateElements {
             }
         }
         System.out.println(storeMap);
-        // retrieving values from Hashmap is via Set - entrySet
+        // retrieving values from Hashmap using Set - entrySet
         Set<Map.Entry<String, Integer>> entrySet = storeMap.entrySet();
 
             for (Map.Entry<String, Integer> entry : entrySet) {

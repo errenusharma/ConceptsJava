@@ -17,9 +17,7 @@ public class AllAboutArrays {
         }
     // another way is to declare and assign values together when you know your values beforehand
         int[] arr2 = {7,8,9};
-       /* for(int i=0;i<arr2.length;i++){
-            System.out.println(arr2[i]);
-        }*/
+
         for (int i:arr2) {
             System.out.println(i);
 

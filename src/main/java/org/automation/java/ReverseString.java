@@ -13,7 +13,7 @@ public class ReverseString {
     }
 
     // 1. Using no inherent method and basic string custom method using for loop and charAt method
-    // no string reverse method in basic string as it is immutable
+
     public static String reverseString(String str) {
         int len = str.length();
         String revStr = "";
