@@ -1,11 +1,8 @@
 package org.automation.java;
 
 public class RegexUsage {
-    public static void main(String[] args) {
+    public String removeSpecialChar(String str) {
         //1. Removing special or unwanted characters using replaceAll method and regex
-
-        String str = "@@!%%testing1234&++Java";
-        String s1= str.replaceAll("[^a-zA-Z0-9]", "");
-        System.out.println(s1);
+        return str.replaceAll("[^a-zA-Z0-9]", "");
     }
 }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AddTwoIntegers {
 
-    public static void main(String[] args) {
+    public void addTwoNumber() {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the first number");
         int i1 = sc.nextInt();

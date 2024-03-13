@@ -9,4 +9,15 @@ public class TestHello {
     public void testHello(){
         Assertions.assertTrue(Boolean.TRUE);
     }
+
+    @Test
+    public void testRemoveSpecialChar_success(){
+        RegexUsage regexUsage=new RegexUsage();
+
+        String input="@@!%%Renu&++Java";
+
+        String result = regexUsage.removeSpecialChar(input);
+
+        Assertions.assertEquals("RenuJava",result);
+    }
 }
