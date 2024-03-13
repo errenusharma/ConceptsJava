@@ -18,6 +18,6 @@ public class TestHello {
 
         String result = regexUsage.removeSpecialChar(input);
 
-        Assertions.assertEquals("Renu1Java",result);
+        Assertions.assertEquals("RenuJava",result);
     }
 }
