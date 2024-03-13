@@ -19,5 +19,6 @@ public class TestHello {
         String result = regexUsage.removeSpecialChar(input);
 
         Assertions.assertEquals("RenuJava",result);
+        Assertions.assertTrue(Boolean.TRUE);
     }
 }
