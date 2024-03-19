@@ -2,15 +2,6 @@ package org.automation.java;
 
 public class ReverseString {
 
-    public static void main(String[] args) {
-
-        ReverseString string = new ReverseString();
-
-        System.out.println("Reversed String using basic string = " + reverseString("HelloWorld"));
-        System.out.println("Reversed String using StringBuffer = " + string.reverseString2("Selenium"));
-        System.out.println("Reversed String using StringBuilder = " + string.reverseString3("Java"));
-
-    }
 
     // 1. Using no inherent method and basic string custom method using for loop and charAt method
 
@@ -33,9 +24,9 @@ public class ReverseString {
 
     //3. Using inherent reverse  method of StringBuffer class since it lets you create mutable objects
 
-    public StringBuilder reverseString3(String str) {
+    public String reverseString3(String str) {
         StringBuilder sb = new StringBuilder(str);
         StringBuilder revStr = sb.reverse();
-        return revStr;
+        return revStr.toString(); // converting StringBuilder back to String
     }
 }

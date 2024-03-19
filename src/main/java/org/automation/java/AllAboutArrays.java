@@ -22,7 +22,7 @@ public class AllAboutArrays {
             System.out.println(i);
 
         }
-        // **IMP** In For loop always put condtio <, <= to avoid array out of index error
+        // **IMP** In For loop always put condtion <, <= to avoid array out of index error
 
         //to convert existing array to Arraylist use below method
 
