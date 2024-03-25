@@ -14,7 +14,7 @@ public class TestPatterns {
     public void testPatternAlphabet2()
     {
         StarPatterns p2 = new StarPatterns();
-        p2.PatternAlphabet2();
+        p2.PatternAlphabet2();::::::::::::
         System.out.println("----------------------------------------------");
     }
     @Test
