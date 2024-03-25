@@ -6,7 +6,7 @@ public class JavaProgramMain {
     public static void main(String[] args) {
         AddTwoIntegers addTwoIntegers = new AddTwoIntegers();
         addTwoIntegers.addTwoNumber();
-
+        System.out.println();
         RegexUsage regexUsage = new RegexUsage();
         String str = "@@!%%testing1234&++Java";
         System.out.println(regexUsage.removeSpecialChar(str));
