@@ -9,7 +9,7 @@ public class TestDuplicateElements {
     @Test
     public void testDuplicateElements()
     {
-        String str = "WorkInProgress";
+        String str = "SeleniumTesting";
         ReverseString string = new ReverseString();
 
         System.out.println("Reversed String using basic string = " + ReverseString.reverseString(str));
@@ -20,4 +20,11 @@ public class TestDuplicateElements {
 
     }
 
-}
+}:::
+
+
+
+
+
+:::
++``
