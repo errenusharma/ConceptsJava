@@ -7,7 +7,7 @@ public class TestPatterns {
     public void testPatternNumber1(){
         StarPatterns p1 = new StarPatterns();
         p1.PatternNumber1();
-        System.out.println("------------------------------------------");
+        System.out.println("----------------------------------------------");
     }
 
     @Test
@@ -15,13 +15,13 @@ public class TestPatterns {
     {
         StarPatterns p2 = new StarPatterns();
         p2.PatternAlphabet2();
-        System.out.println("------------------------------------------");
+        System.out.println("----------------------------------------------");
     }
     @Test
     public void testStarPattern3()
     {
         StarPatterns p3 = new StarPatterns();
         p3.starPattern3();
-        System.out.println("------------------------------------------");
+        System.out.println("-----------------------------------------------");
     }
 }
