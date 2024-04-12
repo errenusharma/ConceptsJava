@@ -22,7 +22,7 @@ public class ReverseString {
         return revStr;
     }
 
-    //3. Using inherent reverse  method of StringBuffer class since it lets you create mutable objects
+    //3. Using inherent reverse  method of StringBuilder class since it lets you create mutable objects
 
     public String reverseString3(String str) {
         StringBuilder sb = new StringBuilder(str);
