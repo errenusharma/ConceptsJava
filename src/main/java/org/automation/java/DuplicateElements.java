@@ -26,34 +26,34 @@ public class DuplicateElements {
             if (store.add(name) == false) {
                 System.out.println("Duplicate element using hashset is:" + name);
             }
-        }
-        System.out.println("*************************");
+            System.out.println("*************************");
 
-        //3. Using HashMap - Time Complexity : O(2n)
+            //3. Using HashMap - Time Complexity : O(2n)
 
-        Map<String, Integer> storeMap = new HashMap<String, Integer>();
-        for(String name : names){
-            Integer count = storeMap.get(name);
-            if(count==null){
-                storeMap.put(name, 1);
-            }else{
-                if(storeMap.get(name)>=1){
-                    System.out.println("Duplicate Element using Sumit Solution:"+ name);
+            Map<String, Integer> storeMap = new HashMap<String, Integer>();
+            for (String nme : names) {
+                Integer count = storeMap.get(nme);
+                if (count == null) {
+                    storeMap.put(nme, 1);
+                } else {
+                    if (storeMap.get(nme) >= 1) {
+                        System.out.println("Duplicate Element using Sumit Solution:" + nme);
+                    }
+                    storeMap.put(nme, ++count);
                 }
-                storeMap.put(name,++count);
             }
-        }
-        System.out.println(storeMap);
-        // retrieving values from Hashmap using Set - entrySet
-        Set<Map.Entry<String, Integer>> entrySet = storeMap.entrySet();
+            System.out.println(storeMap);
+            // retrieving values from Hashmap using Set - entrySet
+            Set<Map.Entry<String, Integer>> entrySet = storeMap.entrySet();
 
             for (Map.Entry<String, Integer> entry : entrySet) {
-                if (entry.getValue()>1){
-                    System.out.println("Duplicate Element using Hashmap:"+ entry.getKey());
+                if (entry.getValue() > 1) {
+                    System.out.println("Duplicate Element using Hashmap:" + entry.getKey());
                 }
 
             }
 
-    }
+        }
 
+    }
 }
